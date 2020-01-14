@@ -1,0 +1,94 @@
+<html>
+<head>
+
+<script type="text/javascript">
+function validate()
+{
+	if(document.form.firstname.value=="")
+	{
+		alert( "Please provide your name!" );
+          		  document.form.firstname.focus() ;
+         		   return false;
+                      }
+	
+	
+	  if(document.form.number.value == "" ||
+      	   isNaN( document.form.number.value ) ||
+       	  document.form.number.value.length != 10 )
+       	  {
+          		  alert( "Please provide a 10 digit mobile number." );
+ 		document.form.number.focus() ;
+        		    return false;
+      	   }
+	 if( document.form.disease.value == "select" )
+         		{
+           			 alert( "Please provide Disease name!" );
+            			return false;
+         		}
+	 if( document.form.gender.value == "" )
+         		{
+           			 alert( "Please provide your gender!" );
+            			return false;
+         		}
+	 if( document.form.date.value == "" )
+         		{
+           			 alert( "Please select appointment date!" );
+            			return false;
+         		}
+
+
+	  return( true );
+      }
+
+	
+</script>
+</head>
+
+<body bgcolor="lightgrey">
+<form action="R:\xampp\htdocs\insertctu.html" name="form" onsubmit="return(validate());">
+<font size="5">
+<font face="Lucida Sans Unicode">
+<center><b><u>Hospitals4Health</u></b></center></font>
+<font size="4">
+<center>Making lives Healthier</center></font>
+<hr></font>
+
+<font face="Verdana">
+ Name:<br>
+ <input type="text" name="firstname"><br><br>
+Email id:<br>
+<input type="email" name="EMail"><br><br>
+
+Gender:<br><br>
+<input type="radio" name="gender" value="male">Male<br>
+<input type="radio" name="gender" value="female">Female<br>
+<br>
+Mobile Number:<br>
+
+<input type="tel" name="number" pattern="^\d{10}$" required><br><br>
+Disease:<select name="disease"><br><br>
+<option value="select">Select</option>
+<option value="Behavioral & Mental Health">Behavioral & Mental Health</option>
+<option value="Cancer Care">Cancer Care</option>
+<option value="Cardiology & Heart Care">Cardiology & Heart Care</option>
+<option value="Dermatology">Dermatology</option>
+<option value="Diabetes & Endocrinology">Diabetes & Endocrinology</option>
+<option value="Robotic Surgery">Robotic Surgery</option>
+<option value="Transplant Services">Transplant Services</option>
+<option value="Neurosciences">Neurosciences</option>
+<option value="Eye Care">Eye Care</option>
+<option value="Epilepsy Center">Epilepsy Center</option>
+<option value="Endocrionolgy">Endocrionolgy</option>
+<option value="Foot & Ankle Services">Foot & Ankle Services</option>
+<option value="Imaging Services">Imaging Services</option>
+<option value="Wound Services">Wound Services</option>
+<option value="Family Visitation">Family Visitation</option>
+</select><br><br>
+Appointment date :<br>
+<input type="date" name="date "><br><br>
+<center><input type="submit"></center>
+</font>
+</form>
+</body>
+</head>
+</html>

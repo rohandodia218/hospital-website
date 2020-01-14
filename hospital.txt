@@ -1,0 +1,91 @@
+<html>
+<head>
+<style>
+h4{ background:green;}
+h3{ background:green;}
+
+</style>
+ 
+<h1><align="center"><font face="Segoe Print"><i><b><u>
+<img src="C:\Users\sakec\Desktop\ted9\Hospital-logo.JPG" height="250" WIDTH="1350"> </head></h1> </b></i></u>
+<br><hr size="25" color="green">
+</h3>
+<img src="C:\Users\sakec\Desktop\ted9\Untitled.jpg" height="300" WIDTH="1350"><h3>
+</h3>
+<h3>
+
+&nbsp
+</h3>
+<center><h2>Tip of the day</center></h2>
+
+<marquee><h2>Honesty is the best policy</h2> </marquee> 
+<body>
+<body bgcolor="white">
+</font>
+<font size="5">
+<font face="Segoe UI Symbol"> 
+
+
+</font>
+<hr size="25" color="green">
+<font size="25"><center>Clinical Specialities</center></font>
+<br><br>
+<table cellspacing="0" border="0">
+<tr>
+<th><img src="C:\Users\sakec\Desktop\ted9\Neurosurgery.jpg"> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<th><img src="C:\Users\sakec\Desktop\ted9\Rehabilitation.jpg"> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<th><img src="C:\Users\sakec\Desktop\ted9\cardio.jpg" width="180" height="170"> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<th><img src="C:\Users\sakec\Desktop\ted9\physio.jpg"  width="180" height="170"> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<th><img src="C:\Users\sakec\Desktop\ted9\der.jpg">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<th><img src="C:\Users\sakec\Desktop\ted9\neu.jpg">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+</tr>
+<tr>
+<th>Neurosurgery&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<th>Cardiology &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<th>Physiotheraphy &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<th>Orthopadics &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<th>Dermatology&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<th>Neurology&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+
+</tr>
+</table>
+
+
+
+ 
+<font size="4">
+<h3> <br><p></h3>
+<h2>For  registration</h2><br><br>
+Full name of patient <input type="column"><br><br>
+Mobile number        <input type="column"><br><br>
+Guardians name       <input type="column"><br><br>
+Email id    <input type="column"><br><br>
+Address              <input type="column"><br>    <br>
+Gender<br><br>
+male<input type="radio" name="gender">
+female<input type="radio" name="gender"><br>
+</font>
+</p>
+<a href="file:///C:/Users/sakec/Desktop/ted9/thnx.html"><input type="submit" name="rohan"> </h3></a>
+<h4>
+
+&nbsp
+</h4>
+<font face ="Lucida Sans Unicode" size="3">
+Patient care <center>About us
+<center><ol></center>
+<center>  <li>vision</li></center>
+ <center> <li>mission</li></center>
+ <center> <li>values</li></center>
+</ol>
+</center>
+<ol>
+  <li>Patient care</li>
+  <li>Guidelines for visitors</li>
+  <li>Discharge process</li>
+</ol>
+</font>
+</body>
+</html>
+
